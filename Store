@@ -1,0 +1,29 @@
+public class Store {
+ private int StoreCode;
+ private String NameOfStore;
+ private String CityName;
+ public Store(int StoreCode, String NameOfStore, String CityName ) {
+	 this.StoreCode = StoreCode;
+	 this.NameOfStore = NameOfStore;
+	 this.CityName = CityName;
+ }
+public int getStoreCode() {
+	return StoreCode;
+}
+public void setStoreCode(int storeCode) {
+	StoreCode = storeCode;
+}
+public String getNameOfStore() {
+	return NameOfStore;
+}
+public void setNameOfStore(String nameOfStore) {
+	NameOfStore = nameOfStore;
+}
+public String getCityName() {
+	return CityName;
+}
+public void setCityName(String cityName) {
+	CityName = cityName;
+}
+
+}
