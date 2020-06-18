@@ -1,12 +1,14 @@
 
 public class Client {
 
-	private int id_number;
-	private int license_number;
-	private String name;
-	private String email;
-	private String address;
-	private int telephone;
+	private int id_number; //arithmos tautothtas
+	private int license_number; //arithmos adeias
+	private String name; //onoma
+	private String email; //email
+	private String address; //dieuthinsi
+	private int telephone; //arithmos thlefwnou
+	
+	// Getters and Setters //
 	
 	public int getId_number() {
 		return id_number;

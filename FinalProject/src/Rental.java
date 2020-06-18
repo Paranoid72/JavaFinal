@@ -1,16 +1,18 @@
 
 public class Rental {
 
-	private int res_Code;
-	private String vehicle;
-	private String customer;
-	private String branch;
-	private int pick_Time;
-	private String pick_Date;
-	private String ret_Branch;
-	private int ret_Time;
-	private String ret_Date;
-	private int total_Cost;
+	private int res_Code; //kwdikos kratisis
+	private String vehicle; //oxhma
+	private String customer; //pelaths
+	private String branch; //katasthma
+	private int pick_Time; //wra paralavis
+	private String pick_Date; //hmerominia paralavis
+	private String ret_Branch; //katastima epistrofis
+	private int ret_Time; //wra epistrofis
+	private String ret_Date; //hmerominia epistrofis
+	private int total_Cost; //synoliko kostos
+	
+	// Getters and Setters // 
 	
 	public int getRes_Code() {
 		return res_Code;
