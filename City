@@ -1,0 +1,20 @@
+public class City {
+ private int CityCode;
+ private String NameOfTown;
+ public City(int CityCode, String NameOfTown) {
+	 this.CityCode = CityCode;
+	 this.NameOfTown = NameOfTown;
+ }
+public int getCityCode() {
+	return CityCode;
+}
+public void setCityCode(int cityCode) {
+	CityCode = cityCode;
+}
+public String getNameOfTown() {
+	return NameOfTown;
+}
+public void setNameOfTown(String nameOfTown) {
+	NameOfTown = nameOfTown;
+}
+}
