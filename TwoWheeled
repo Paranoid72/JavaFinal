@@ -1,0 +1,21 @@
+public class TwoWheeled extends  Vehicle{
+ private double HeightofSeat;
+ private int litre;
+ public TwoWheeled( int AK, String model, String TypeOfGas, String type, double cc, double cost, double HeightofSeat, int litre) {
+  super( AK, model,  TypeOfGas, type,  cc, cost);
+  this.HeightofSeat =HeightofSeat;
+  this.litre = litre;
+ }
+public double getHeightofSeat() {
+	return HeightofSeat;
+}
+public void setHeightofSeat(double heightofSeat) {
+	HeightofSeat = heightofSeat;
+}
+public int getLitre() {
+	return litre;
+}
+public void setLitre(int litre) {
+	this.litre = litre;
+}
+}
